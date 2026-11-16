@@ -59,6 +59,13 @@
 
     const finish = () => {
       splash.classList.add("af-splash--exit");
+      splash.style.pointerEvents = "none";
+      // Guarantee removal even if transitionend never fires
+      setTimeout(() => {
+        splash.remove();
+        document.documentElement.style.overflow = "";
+        document.body.style.overflow = "";
+      }, 900);
       once(splash, "transitionend", () => {
         splash.remove();
         document.documentElement.style.overflow = "";
@@ -84,6 +91,12 @@
       });
       setTimeout(finish, 3100);
     }, 2000);
+
+    // Safety net: never let the splash permanently block the page
+    setTimeout(() => {
+      const s = $("#af-splash");
+      if (s) { s.remove(); document.documentElement.style.overflow = ""; document.body.style.overflow = ""; }
+    }, 9000);
   }
 
   /* ---------- Header scroll state ---------- */
