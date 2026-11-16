@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html class="scroll-smooth no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Travel Experiences | AfriLink Travel — Connecting the World to Africa</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "inverse-on-surface": "#e6f4eb", "surface-container": "#e3f1e8", "on-secondary": "#ffffff",
+            "on-error-container": "#93000a", "primary-container": "#14412b", "on-tertiary-container": "#ada28c",
+            "on-tertiary-fixed": "#211b0c", "surface": "#effdf3", "error": "#ba1a1a",
+            "surface-container-low": "#e9f7ed", "secondary-fixed-dim": "#eec05c", "on-primary-fixed": "#002112",
+            "inverse-primary": "#a2d1b3", "on-surface": "#121e18", "secondary": "#795900",
+            "on-tertiary-fixed-variant": "#4d4634", "surface-container-highest": "#d8e6dc",
+            "surface-bright": "#effdf3", "on-primary-fixed-variant": "#234f38", "outline-variant": "#c1c9c1",
+            "primary-fixed-dim": "#a2d1b3", "inverse-surface": "#27332d", "surface-container-high": "#deece2",
+            "on-tertiary": "#ffffff", "primary-fixed": "#bdeece", "secondary-container": "#fdce68",
+            "background": "#effdf3", "secondary-fixed": "#ffdf9f", "on-secondary-fixed": "#261a00",
+            "surface-tint": "#3c674e", "tertiary-fixed-dim": "#d1c5ae", "on-surface-variant": "#414943",
+            "on-secondary-fixed-variant": "#5c4300", "on-background": "#121e18", "primary": "#002a18",
+            "surface-variant": "#d8e6dc", "error-container": "#ffdad6", "tertiary": "#292314",
+            "tertiary-container": "#403928", "tertiary-fixed": "#ede1c9", "on-secondary-container": "#765600",
+            "surface-dim": "#cfddd4", "on-primary-container": "#7fad90", "on-error": "#ffffff",
+            "on-primary": "#ffffff", "outline": "#717972", "surface-container-lowest": "#ffffff",
+            "brand-gold": "#C49A3A", "brand-cream": "#FAF6EC", "brand-border": "#E8DCC4", "brand-text": "#1E2A24"
+          },
+          "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+          "spacing": { "space-xl": "3.5rem", "gutter-mobile": "1rem", "gutter-tablet": "1.25rem", "margin-tablet": "2rem", "space-xs": "0.375rem", "margin": "4rem", "margin-mobile": "1.25rem", "space-md": "1.25rem", "gutter": "1.5rem", "space-lg": "2rem", "space-sm": "0.75rem" },
+          "fontFamily": {
+            "body-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"],
+            "display": ["Playfair Display"], "headline-md": ["Playfair Display"], "title-lg": ["Plus Jakarta Sans"],
+            "display-mobile": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"], "label-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Playfair Display"]
+          },
+          "fontSize": {
+            "body-sm": ["0.875rem", { "lineHeight": "1.375rem", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "title-md": ["1.125rem", { "lineHeight": "1.6rem", "letterSpacing": "0.005em", "fontWeight": "600" }],
+            "body-lg": ["1.125rem", { "lineHeight": "1.875rem", "letterSpacing": "0em", "fontWeight": "400" }],
+            "display": ["3.5rem", { "lineHeight": "4.25rem", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "headline-md": ["2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "title-lg": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "0em", "fontWeight": "600" }],
+            "display-mobile": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.08em", "fontWeight": "700" }],
+            "body-md": ["1rem", { "lineHeight": "1.625rem", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "0em", "fontWeight": "600" }],
+            "headline-lg": ["2.5rem", { "lineHeight": "3.125rem", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "headline-sm": ["1.5rem", { "lineHeight": "2rem", "letterSpacing": "0em", "fontWeight": "500" }]
+          }
+        }
+      }
+    }
+  </script>
+<link rel="stylesheet" href="../css/motion-system.css">
+<style>
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+  }
+</style>
+</head>
+<body class="bg-surface-container-lowest text-on-surface antialiased selection:bg-secondary-fixed-dim selection:text-primary">
+
+<!-- ============ PAGE TRANSITION ============ -->
+<div id="af-page-transition" class="af-page-transition af-page-transition--enter">
+  <div class="af-page__panel"></div>
+  <div class="af-page__logo"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAma99akHev9z5m9tKeRNPCPiPyizIKoUE0eWPqKvfvHCobuL0ZNfKOOZU7U-BhHLiWjL2AHXB7lx0n2sbMZVUG7zz28_gKQXUG1KRRRZGV1ZDZDMLss_iqJkQlXVcwAwrN0fQOEJmpDxYCbmOvi83NxSFHJRivThsS_eBRVHjdZ5wIc3mr42wVKbEAHFYBQtRJE7D2lVUVns4GKxtQz13uxB1ADP58B0d-BVuKggiruIoJbN4pSv5HCA" alt="AfriLink" class="h-10 w-auto object-contain drop-shadow-[0_0_24px_rgba(196,154,58,0.45)]"></div>
+</div>
+
+<!-- ============ SPLASH ============ -->
+<div id="af-splash" class="af-splash">
+  <div class="af-splash__stage">
+    <svg class="af-map-svg" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+      <path class="af-splash__path" d="M100,26 C116,26 132,38 136,54 C139,70 143,100 146,126 C149,152 143,170 128,180 C113,190 90,192 72,180 C54,168 42,150 38,130 C34,108 36,86 42,68 C48,52 64,46 80,44 C92,43 100,30 100,26 Z" />
+      <path class="af-route-line" d="M 100 2 Q 122 68 132 106" />
+      <circle class="af-map-pin" cx="132" cy="106" r="5" />
+    </svg>
+  </div>
+  <div class="af-splash__wordmark"><div class="af-wordmark-main">AFRILINK</div><div class="af-wordmark-sub">TRAVEL GROUP</div></div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="af-header sticky top-0 w-full z-50">
+  <div class="af-header-wrap max-w-7xl mx-auto">
+    <a class="text-title-lg font-headline-sm font-semibold tracking-tight text-primary flex items-center gap-2 group af-logo-group" href="../index.html"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAma99akHev9z5m9tKeRNPCPiPyizIKoUE0eWPqKvfvHCobuL0ZNfKOOZU7U-BhHLiWjL2AHXB7lx0n2sbMZVUG7zz28_gKQXUG1KRRRZGV1ZDZDMLss_iqJkQlXVcwAwrN0fQOEJmpDxYCbmOvi83NxSFHJRivThsS_eBRVHjdZ5wIc3mr42wVKbEAHFYBQtRJE7D2lVUVns4GKxtQz13uxB1ADP58B0d-BVuKggiruIoJbN4pSv5HCA" alt="AfriLink Travel Group" class="af-logo-img h-10 w-auto object-contain"></a>
+    <nav class="af-nav hidden md:flex items-center space-x-8">
+      <a class="af-nav-link" href="../index.html">Home</a>
+      <a class="af-nav-link" href="about.html">About Us</a>
+      <a class="af-nav-link" href="destinations.html">Explore Africa</a>
+      <a class="af-nav-link af-nav-link--active" href="experiences.html">Travel Experiences</a>
+      <a class="af-nav-link" href="how-it-works.html">How It Works</a>
+      <a class="af-nav-link" href="contact.html">Contact</a>
+    </nav>
+    <div class="flex items-center gap-4">
+      <a class="hidden lg:inline-flex items-center justify-center px-4 py-2 border border-secondary text-primary hover:bg-surface-container-low transition-colors duration-200 font-label-md text-label-md rounded-lg" href="#quick-enquiry">Get Personalised Recommendations</a>
+      <a class="af-btn-gold af-btn-arrow inline-flex items-center justify-center px-5 py-2.5" href="plan-your-journey.html"><span>Plan Your African Journey</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></a>
+      <button aria-label="Account Access" class="p-2 text-primary hover:text-secondary transition-colors" type="button"><span class="material-symbols-outlined text-2xl" data-icon="account_circle">account_circle</span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative bg-primary text-surface-bright overflow-hidden pt-16 pb-20 md:py-28 border-b border-outline-variant/20">
+  <div class="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay" style="background-image: radial-gradient(#C49A3A 1px, transparent 1px); background-size: 24px 24px;"></div>
+  <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+    <nav class="flex items-center gap-2 font-label-sm text-label-sm text-surface-container-highest/80 mb-6">
+      <a class="hover:text-secondary-fixed transition-colors" href="../index.html">Home</a>
+      <span class="material-symbols-outlined text-[14px]" data-icon="chevron_right">chevron_right</span>
+      <span class="text-secondary-fixed font-medium">Travel Experiences</span>
+    </nav>
+    <div class="max-w-4xl">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary-container/80 border border-secondary-fixed/30 text-secondary-fixed font-label-sm text-label-sm tracking-wider uppercase mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed animate-pulse"></span>
+        Bespoke Pan-African Curations
+      </div>
+      <h1 class="af-reveal af-reveal--line font-display text-headline-lg md:text-display text-white tracking-tight leading-tight mb-6" style="position:relative;">Curated Travel Experiences Across Africa&rsquo;s Untamed Sanctuaries</h1>
+      <p class="af-reveal--text font-body-lg text-body-lg text-surface-container-highest/90 max-w-3xl leading-relaxed mb-10">
+        Handcrafted journeys connecting discerning global travellers with indigenous custodians, master naturalists, and exclusive conservation lodges across Kenya, Tanzania, Uganda, Rwanda, Ghana, Nigeria, and South Africa.
+      </p>
+      <div class="inline-flex flex-wrap items-center gap-4 md:gap-8 py-3.5 px-6 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm text-surface-bright font-label-md text-label-md af-reveal">
+        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary-fixed text-[18px]" data-icon="verified">verified</span><span>8 Signature Curations</span></div>
+        <span class="text-white/30 hidden sm:inline">•</span>
+        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary-fixed text-[18px]" data-icon="handshake">handshake</span><span>100% Vetted Operators</span></div>
+        <span class="text-white/30 hidden sm:inline">•</span>
+        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary-fixed text-[18px]" data-icon="shield_with_heart">shield_with_heart</span><span>Zero Extractive Markups</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JUMP BAR -->
+<div class="sticky top-20 z-40 bg-surface-container-low/90 backdrop-blur-md border-b border-outline-variant/30 py-3 hidden lg:block shadow-sm af-reveal">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between text-body-sm font-label-sm">
+    <span class="text-on-surface-variant uppercase tracking-wider font-semibold">Jump to Curation:</span>
+    <div class="flex items-center gap-6 overflow-x-auto no-scrollbar py-1">
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#wildlife-safaris">Wildlife Safaris</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#beach-holidays">Beach Holidays</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#luxury-escapes">Luxury Escapes</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#cultural-tourism">Cultural Tourism</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#adventure-travel">Adventure Travel</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#nature-and-wildlife">Nature &amp; Wildlife</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#family-holidays">Family Holidays</a>
+      <a class="text-on-surface hover:text-primary transition-colors whitespace-nowrap" href="#group-travel">Group Travel</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ ALTERNATING EXPERIENCES ============ -->
+<main class="py-20 md:py-28 space-y-24 md:space-y-36 max-w-7xl mx-auto px-6 md:px-12">
+<!-- 1 Wildlife Safaris - image left -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="wildlife-safaris">
+  <div class="lg:col-span-7 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnFIbdcoyPg84Vuss9VicQk4dc9P46R_Q904uOIm9EuN-x5TSg-bsEbvZis2B_U43FNKGtvQJFR8JY-vxe_i7svadmxPZHrq1-2G9gXOzU7fiLjUncc1ePQM4ChqxN4FjfN1EDtyxMO2SaBa5GUQYuNb955aEGNaKu72Dtnz4t3d03pYXxiFg28GV3tOAWgckTZJ3zQAXtLRevwxBydHc0VH_cMDmB5nR0jmpcAmDM">
+      <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Vetted Partner • Maasai Mara &amp; Serengeti</div>
+    </div>
+  </div>
+  <div class="lg:col-span-5 space-y-6 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Signature Savannah &amp; Big Five</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Wildlife Safaris</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Venture deep into iconic private conservancies&mdash;from Kenya&rsquo;s Maasai Mara and Tanzania&rsquo;s Serengeti to South Africa&rsquo;s Sabi Sands. Experience unscripted game drives, the Great Wildebeest Migration, and intimate predator tracking led by certified indigenous naturalists.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Private Concession Access</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Zero Tourist Convoys</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Sunrise Hot-Air Ballooning</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Wildlife Safaris')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+</article>
+<!-- 2 Beach Holidays - text left -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="beach-holidays">
+  <div class="lg:col-span-5 space-y-6 order-2 lg:order-1 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Turquoise Indian Ocean &amp; Coral Atolls</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Beach Holidays</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Unwind along untouched coastlines where powdery white sands meet warm turquoise waters. From private dhow sailing in Zanzibar and barefoot luxury in Mozambique to secluded private villas along Kenya&rsquo;s Diani Beach.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Private Island Atolls</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Sunset Dhow Charters</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Marine Biosphere Snorkeling</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Beach Holidays')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+  <div class="lg:col-span-7 order-1 lg:order-2 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAobsowfVu69bkzKGE-H69atqaOdZY7SMR3-q3KYmXTgzZ-e-H4NNX9VkM8KFDtH7_mlHCDD5cbhCzYlMQhk1On0yjjKPYu1bqgriSRvET239q11YRDcyGC-_dNDKiIyfDw0Vt26u0XaeoMEdxpMmUNoEm4EZk5hhgKVsiXxDECT4JB5CrgrUi-xlkMxyGcf1yjoxCqMU-QMLiZMUI2nS_zj43bdQ_ihJVb35pRlR2P">
+      <div class="absolute top-4 right-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Sanctuary • Zanzibar &amp; Bazaruto</div>
+    </div>
+  </div>
+</article>
+<!-- 3 Luxury Escapes -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="luxury-escapes">
+  <div class="lg:col-span-7 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRWjazdoWwsnCz9GUgyHnpF2MyphHy__WHZ-zkHGfdO1O-qPImjwItmoWJ-Vy0XdOu-2v1knN13C74vpKxTyFsysvfnwyLNfUNl1qUcfQNz8Jr59Z1CvROJtPqhYc96-N0NHQ-S7wBblqeXopIr_CvMnHfXp9uqWappyHLw-Yu9RECcy07HvsWn1g-_IgQjw8tcWq6fQPIt5hcIeinZtAMBcbsjpB3o7NgemXrM_f6">
+      <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Private Reserves • Sabi Sand &amp; Laikipia</div>
+    </div>
+  </div>
+  <div class="lg:col-span-5 space-y-6 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Exclusive Bush Sanctuaries &amp; Sky Travel</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Luxury Escapes</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Architect-designed eco-villas perched above river valleys, private cliff-side plunge pools, dedicated field concierges, and private Cessna bush charters directly connecting secluded airstrips.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>100% Solar-Powered Sanctuaries</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Private Chef &amp; Bush Dining</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>On-Demand Aviation</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Luxury Escapes')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+</article>
+<!-- 4 Cultural Tourism -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="cultural-tourism">
+  <div class="lg:col-span-5 space-y-6 order-2 lg:order-1 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Living Heritage, Ancient Kingdoms &amp; Contemporary Art</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Cultural Tourism</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Engage deeply with Africa&rsquo;s rich heritage: royal audiences in Ghana&rsquo;s Ashanti Kingdom, contemporary art curator tours in Lagos, sacred Osun-Osogbo forest walks, and storytelling with Maasai and Samburu community elders.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Direct Community Reinvestment</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Curated Gallery &amp; Artisan Access</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Elder-Guided Storytelling</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Cultural Tourism')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+  <div class="lg:col-span-7 order-1 lg:order-2 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdgleHHBl4T1sQwhbU_TBKu_JawVy-DFG-VnwCCDqxLDWYStmAFQ23uM74GDJ8FkBLF_ikYmD79P5B2X5qF-0l_xY1HCum6wrUIlZUmXqvbDhDYxnDR3Noorw6wPResr1BAFEmo8GoH9DGOBhJGh3ylV7BXpUrldFqaauV0-Lttbr57tD2asSYhN8QPmAvmoFQLJUt6on9-s8mZg3v98OqMAPNvYkaoCeTpBT0UZei">
+      <div class="absolute top-4 right-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Curated Heritage • Kumasi &amp; Lagos</div>
+    </div>
+  </div>
+</article>
+<!-- 5 Adventure Travel -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="adventure-travel">
+  <div class="lg:col-span-7 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAScFg-OL0Zj1s0jgU1q6XUwlRR1kGV7C3byhyUukYvIjei6f9H_y2NkBZBGenLGwTSzNwqGgGGE8XpKJAJsJpF2Hz5kaCFfGQc5YNTspkwP85ujAaitNKc462zMHSfhpUNTrviFlqYhC_y2_zayNPEl_XjOoBuu4ETuaRN3TNUJNg07SJ2h1zgG0Rp6gk1PEukGb-GPzuJVxAJQ6vOFbhdlZ8Cn_Z6nSttADBPjSEb">
+      <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">High Expeditions • Kilimanjaro &amp; Zambezi</div>
+    </div>
+  </div>
+  <div class="lg:col-span-5 space-y-6 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>High-Altitude Summits &amp; Untamed Waterways</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Adventure Travel</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Test your endurance on the iconic snow-capped routes of Mount Kilimanjaro and Mount Kenya, brave white-water rafting the wild Zambezi gorges below Victoria Falls, or fly-camp in the rugged northern wilderness.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Certified Mountain Expedition Guides</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Rapid Wilderness Evacuation Cover</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>High-Altitude Bush Camps</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Adventure Travel')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+</article>
+<!-- 6 Nature and Wildlife -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="nature-and-wildlife">
+  <div class="lg:col-span-5 space-y-6 order-2 lg:order-1 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Primate Odysseys &amp; Rare Flora Biomes</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Nature and Wildlife</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Come eye-to-eye with endangered mountain gorillas in the misty high-altitude rainforests of Rwanda&rsquo;s Volcanoes National Park and Uganda&rsquo;s Bwindi Impenetrable Forest, or track habituated chimpanzees across Kibale.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Priority Gorilla Permit Securing</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Master Primatologist Guides</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>High-Canopy Rainforest Lodges</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Nature and Wildlife')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+  <div class="lg:col-span-7 order-1 lg:order-2 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_DnPQfSuE6a9blsLZToRpP8sOWE_tTgeo_Fu5cwT7QwI4rId4dNdbtl4C-FbrPMbr4ovQ149S8BjmIoNeIeBQ-VNdafdVEA1Yd4_XSzyAdkPd-eG1eV5s_DR0SeD_l2_8ozds6uFuhAPjYHulXR7XIA9fNFBSdzicRFZuI3CrV-nN1lI0Ey7tmDKTJNbjmzhYufaGrYPQ7D-VSCq6amFRlJbGmkpQAXbekZP0MedB">
+      <div class="absolute top-4 right-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Protected Biome • Volcanoes &amp; Bwindi</div>
+    </div>
+  </div>
+</article>
+<!-- 7 Family Holidays -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="family-holidays">
+  <div class="lg:col-span-7 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBz7MdF9Dj-eFUDRL-7I6cbUYook_dCX6GLCOQucxXAP2u-9ijIFWu30eXYAd0sSxKqxlrOj-Jm4sGtWCBgj6xCek1MLwJZMP28QOcNajpMzpODoqLdCG_oVRciNZ72t8jKEGYNvlgrm_Mo2c9GBsHPGoEH5HVCIUfIe8QVQ46q9AQBClK1C3DEaxGgYzUUqVUTvCwn7fmnTK02hNC7IoO4A-8iyfLQAW88RBVRsaMr">
+      <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Private Homesteads • Lewa &amp; Madikwe</div>
+    </div>
+  </div>
+  <div class="lg:col-span-5 space-y-6 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Multi-Generational Wonder &amp; Inspiring Discovery</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Family Holidays</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Inspire young minds with tailored junior ranger bush academies, private multi-bedroom safari homesteads, dedicated family safari vehicles, and child-friendly cultural exchanges with host communities.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Exclusive-Use Safari Villas</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Junior Ranger Field Programs</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Flexible Private Vehicle Schedules</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Family Holidays')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+</article>
+<!-- 8 Group Travel -->
+<article class="af-alt-section grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center" id="group-travel">
+  <div class="lg:col-span-5 space-y-6 order-2 lg:order-1 af-reveal">
+    <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span>Curated Expeditions &amp; Bespoke Milestones</div>
+    <h2 class="af-reveal af-reveal--line font-display text-headline-md md:text-headline-lg text-primary leading-tight" style="position:relative;">Group Travel</h2>
+    <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant leading-relaxed">
+      Full private camp buyouts for anniversary milestones, conservation donor delegations, photography collectives, and multi-couple journeys with dedicated expedition directors handling seamless logistics across sovereign borders.
+    </p>
+    <div class="space-y-2.5 pt-2">
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Exclusive Reserve &amp; Lodge Buyouts</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Custom Charter Bush Corridors</span></div>
+      <div class="flex items-center gap-3 text-body-sm font-label-md text-on-surface af-reveal--text"><span class="material-symbols-outlined text-secondary text-[20px]" data-icon="check_circle">check_circle</span><span>Dedicated Group Concierge Lead</span></div>
+    </div>
+    <div class="pt-4 af-reveal"><button class="af-btn-gold af-btn-arrow inline-flex items-center gap-3 px-7 py-3.5" onclick="openEnquiryModal('Group Travel')"><span>Enquire About This Experience</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button></div>
+  </div>
+  <div class="lg:col-span-7 order-1 lg:order-2 af-alt-img af-reveal">
+    <div class="relative overflow-hidden rounded-xl border border-[#E8DCC4] shadow-[0_4px_20px_rgba(20,65,43,0.06)] group">
+      <img class="w-full h-[420px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKd0WwhDu3_x08i6lZcagBAhD93BLuixpOikInPn8U7W7rZoozHVaEVAG2J33Toyxy6-c85ZBiJ29UPUNl8V4ne0g_3bq_65BcQpbL4iBF53QIN3OZq77Dhy92oTmMQJ2OOLRa_YtUL3qNb-Cbj0zGEBZU4Y5_TZSXZrKxnfBZl0UJsp3t_Vd5Mw4zrREpR639MVg7SfEiLTwJzAHP-GRnZA_Ucoaso1hXPszC7T9L">
+      <div class="absolute top-4 right-4 bg-white/95 backdrop-blur-sm border border-[#E8DCC4] px-3.5 py-1.5 rounded text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Private Camp Buyouts • Okavango &amp; Tsavo</div>
+    </div>
+  </div>
+</article>
+</main>
+
+<!-- ============ COMBINED ITINERARY BAND ============ -->
+<section class="bg-surface-container-low border-y border-[#E8DCC4] py-20 af-reveal">
+  <div class="max-w-7xl mx-auto px-6 md:px-12">
+    <div class="bg-white rounded-xl border border-[#E8DCC4] p-8 md:p-14 shadow-[0_4px_20px_rgba(20,65,43,0.04)] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+      <div class="lg:col-span-8 space-y-4">
+        <div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold"><span class="material-symbols-outlined text-[18px]" data-icon="auto_awesome">auto_awesome</span>Bespoke Multi-Region Design</div>
+        <h3 class="af-reveal af-reveal--line font-display text-headline-sm md:text-headline-md text-primary" style="position:relative;">Can&rsquo;t Decide on a Single Experience?</h3>
+        <p class="af-reveal--text font-body-md text-body-md text-on-surface-variant max-w-3xl leading-relaxed">
+          Most AfriLink journeys seamlessly combine two or three styles&mdash;such as an exhilarating wildlife migration safari paired with barefoot relaxation on Zanzibar&rsquo;s coral coast or gorilla trekking in Rwanda.
+        </p>
+      </div>
+      <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4 justify-center">
+        <button class="af-btn-gold af-btn-arrow inline-flex items-center justify-center gap-2 px-6 py-3.5" onclick="openEnquiryModal('Combined Itinerary')"><span>Plan a Combined Itinerary</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="alt_route">alt_route</span></span></button>
+        <a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 border-1.5 border-secondary text-primary font-label-md text-label-md rounded-lg hover:bg-surface-container-low transition-colors" href="#quick-enquiry"><span>Consult Our Travel Specialists</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BAR + QUICK ENQUIRY ============ -->
+<section class="bg-primary text-surface-bright py-20 border-b border-secondary/20" id="quick-enquiry">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 space-y-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-12 border-b border-white/10">
+      <div class="space-y-2 af-reveal">
+        <div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-fixed flex items-center justify-center mb-3"><span class="material-symbols-outlined text-[24px]" data-icon="verified_user">verified_user</span></div>
+        <h4 class="font-title-md text-title-md text-white">100% Vetted Concessions</h4>
+        <p class="font-body-sm text-body-sm text-surface-container-highest/80">Strictly audited private reserves maintaining ethical animal interaction standards.</p>
+      </div>
+      <div class="space-y-2 af-reveal">
+        <div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-fixed flex items-center justify-center mb-3"><span class="material-symbols-outlined text-[24px]" data-icon="policy">policy</span></div>
+        <h4 class="font-title-md text-title-md text-white">Zero Hidden Markups</h4>
+        <p class="font-body-sm text-body-sm text-surface-container-highest/80">Enquiry-driven direct partner pricing without extractive retail tour overheads.</p>
+      </div>
+      <div class="space-y-2 af-reveal">
+        <div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-fixed flex items-center justify-center mb-3"><span class="material-symbols-outlined text-[24px]" data-icon="nature_people">nature_people</span></div>
+        <h4 class="font-title-md text-title-md text-white">Conservation Levies</h4>
+        <p class="font-body-sm text-body-sm text-surface-container-highest/80">Transparent ecological fees directly funding anti-poaching and habitat restoration.</p>
+      </div>
+      <div class="space-y-2 af-reveal">
+        <div class="w-10 h-10 rounded-lg bg-primary-container text-secondary-fixed flex items-center justify-center mb-3"><span class="material-symbols-outlined text-[24px]" data-icon="medical_services">medical_services</span></div>
+        <h4 class="font-title-md text-title-md text-white">24/7 Ground Medical Cover</h4>
+        <p class="font-body-sm text-body-sm text-surface-container-highest/80">Immediate flying-doctor aeromedical evacuation coverage on every bespoke route.</p>
+      </div>
+    </div>
+    <div class="bg-primary-container/80 rounded-xl p-8 md:p-12 border border-secondary/30 flex flex-col lg:flex-row items-center justify-between gap-8 af-reveal">
+      <div class="space-y-3 text-center lg:text-left">
+        <span class="text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest font-bold">White-Glove Assistance</span>
+        <h3 class="af-reveal af-reveal--line font-display text-headline-sm md:text-headline-md text-white" style="position:relative;">Plan Your Bespoke African Journey With Senior Specialists</h3>
+        <p class="af-reveal--text font-body-md text-body-md text-surface-container-highest/90 max-w-2xl">
+          Share your preferred dates, party composition, and aspirational destinations. A dedicated safari planner will reach out within 24 hours with tailored recommendations.
+        </p>
+      </div>
+      <div class="flex flex-col items-center lg:items-end gap-3 w-full sm:w-auto">
+        <button class="af-btn-gold af-btn-arrow w-full sm:w-auto px-8 py-4 text-center" onclick="openEnquiryModal('General Specialist Consultation')"><span>Consult a Specialist</span><span class="af-arrow"><span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></span></button>
+        <div class="flex items-center gap-2 text-surface-container-highest text-body-sm"><span class="material-symbols-outlined text-[16px] text-secondary-fixed" data-icon="mail">mail</span><span>Or write directly to: <a class="text-secondary-fixed underline hover:text-white transition-colors" href="mailto:hello@afrilinktravel.com">hello@afrilinktravel.com</a></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="w-full pt-16 pb-12 bg-primary dark:bg-primary-container text-surface-bright border-t border-secondary/20 dark:border-secondary-fixed/10">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+      <div class="md:col-span-5 space-y-4 af-reveal af-footer-col">
+        <div class="text-headline-sm font-headline-sm font-semibold tracking-wide text-secondary-fixed flex items-center gap-2"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAma99akHev9z5m9tKeRNPCPiPyizIKoUE0eWPqKvfvHCobuL0ZNfKOOZU7U-BhHLiWjL2AHXB7lx0n2sbMZVUG7zz28_gKQXUG1KRRRZGV1ZDZDMLss_iqJkQlXVcwAwrN0fQOEJmpDxYCbmOvi83NxSFHJRivThsS_eBRVHjdZ5wIc3mr42wVKbEAHFYBQtRJE7D2lVUVns4GKxtQz13uxB1ADP58B0d-BVuKggiruIoJbN4pSv5HCA" alt="AfriLink Travel Group" class="h-10 w-auto object-contain rounded bg-white/95 p-1"></div>
+        <p class="font-body-sm text-body-sm text-surface-container-highest/80 max-w-sm af-reveal--text">Connecting the World to Africa. Curating ethical, ultra-luxury safaris, cultural preservation expeditions, and private sanctuaries across sub-Saharan Africa.</p>
+      </div>
+      <div class="md:col-span-3 space-y-3 af-reveal af-footer-col">
+        <div class="text-label-sm font-label-sm text-secondary-fixed uppercase tracking-wider">Curations</div>
+        <ul class="space-y-2 font-body-sm text-body-sm">
+          <li><a class="af-reveal--text text-surface-container-highest/80 hover:text-surface-bright text-body-sm transition-colors" href="#">Explore Africa</a></li>
+          <li><a class="af-reveal--text text-secondary-fixed font-medium" href="#">Travel Experiences</a></li>
+          <li><a class="af-reveal--text text-surface-container-highest/80 hover:text-surface-bright text-body-sm transition-colors" href="#">Curated Lodges</a></li>
+          <li><a class="af-reveal--text text-surface-container-highest/80 hover:text-surface-bright text-body-sm transition-colors" href="#">Partner With Us</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-4 space-y-3 af-reveal af-footer-col">
+        <div class="text-label-sm font-label-sm text-secondary-fixed uppercase tracking-wider">Assistance &amp; Ethics</div>
+        <ul class="space-y-2 font-body-sm text-body-sm">
+          <li><a class="af-reveal--text text-surface-container-highest/80 hover:text-surface-bright text-body-sm transition-colors" href="#">Privacy Policy</a></li>
+          <li><a class="af-reveal--text text-surface-container-highest/80 hover:text-surface-bright text-body-sm transition-colors" href="#">Terms of Service</a></li>
+          <li><a class="af-reveal--text text-surface-container-highest/80 hover:text-surface-bright text-body-sm transition-colors" href="#">FAQ</a></li>
+          <li><a class="af-reveal--text text-secondary-fixed hover:text-surface-bright text-body-sm transition-colors flex items-center gap-1.5" href="mailto:hello@afrilinktravel.com"><span class="material-symbols-outlined text-[16px]" data-icon="mail">mail</span> hello@afrilinktravel.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-body-sm text-surface-container-highest/70 font-body-sm">
+      <p>© 2025 AfriLink Travel Ltd. All rights reserved. Bespoke African luxury safaris and sanctuaries.</p>
+      <p class="text-xs text-secondary-fixed/80">Enquiry &amp; Assistance Advisory Protocol</p>
+    </div>
+  </div>
+  <button class="af-back-to-top" id="af-back-to-top" aria-label="Back to top" type="button">↑</button>
+</footer>
+
+<!-- ============ ENQUIRY DRAWER ============ -->
+<div aria-labelledby="slide-over-title" aria-modal="true" class="fixed inset-0 z-50 overflow-hidden hidden" id="enquiry-drawer" role="dialog">
+  <div class="fixed inset-0 bg-[#1E2A24]/60 backdrop-blur-sm transition-opacity opacity-0 duration-300" id="drawer-backdrop"></div>
+  <div class="fixed inset-y-0 right-0 max-w-full flex pl-10">
+    <div class="w-screen max-w-md transform translate-x-full transition-transform duration-300 ease-in-out bg-[#FAF6EC] border-l border-[#E8DCC4] flex flex-col justify-between p-8 shadow-2xl overflow-y-auto" id="drawer-panel">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-[#E8DCC4]">
+          <div class="space-y-1">
+            <span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">Bespoke Advisory</span>
+            <h3 class="font-display text-headline-sm text-primary" id="drawer-experience-title">Enquire About Experience</h3>
+          </div>
+          <button class="p-2 text-on-surface-variant hover:text-primary transition-colors" onclick="closeEnquiryModal()"><span class="material-symbols-outlined text-2xl" data-icon="close">close</span></button>
+        </div>
+        <p class="font-body-sm text-body-sm text-on-surface-variant my-5">Every itinerary is personally crafted with zero standard commercial markups. Share your initial thoughts and an executive safari specialist will assist you.</p>
+        <form class="space-y-4" onsubmit="handleFormSubmit(event)">
+          <div>
+            <label class="block font-label-md text-label-md text-on-surface mb-1">Your Full Name</label>
+            <input class="w-full bg-white border border-[#E8DCC4] rounded-lg px-4 py-2.5 text-body-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-secondary/50" placeholder="e.g. Lorde Harrington" required type="text">
+          </div>
+          <div>
+            <label class="block font-label-md text-label-md text-on-surface mb-1">Email Address</label>
+            <input class="w-full bg-white border border-[#E8DCC4] rounded-lg px-4 py-2.5 text-body-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-secondary/50" placeholder="e.g. name@domain.com" required type="email">
+          </div>
+          <div>
+            <label class="block font-label-md text-label-md text-on-surface mb-1">Experience of Interest</label>
+            <input class="w-full bg-white border border-[#E8DCC4] rounded-lg px-4 py-2.5 text-body-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-secondary/50" id="drawer-experience" readonly type="text">
+          </div>
+          <div>
+            <label class="block font-label-md text-label-md text-on-surface mb-1">Message</label>
+            <textarea class="w-full bg-white border border-[#E8DCC4] rounded-lg px-4 py-2.5 text-body-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-secondary/50" rows="3" placeholder="Tell us about your plans&hellip;" required></textarea>
+          </div>
+          <button class="w-full inline-flex items-center justify-center gap-2 bg-primary text-on-primary hover:bg-primary-container px-8 py-4 rounded-lg font-label-md text-label-md shadow-md transition-all duration-200 border-b-2 border-secondary group" type="submit"><span class="tracking-wide">Submit Enquiry</span><span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="af-cursor" aria-hidden="true"></div>
+<script src="../js/motion-system.js" defer></script>
+<script>
+  const drawer = document.getElementById('enquiry-drawer');
+  const panel = document.getElementById('drawer-panel');
+  const backdrop = document.getElementById('drawer-backdrop');
+  const title = document.getElementById('drawer-experience-title');
+  const field = document.getElementById('drawer-experience');
+  function openEnquiryModal(name) {
+    title.textContent = 'Enquire About ' + name;
+    field.value = name;
+    drawer.classList.remove('hidden');
+    rAF(() => { backdrop.classList.remove('opacity-0'); panel.classList.remove('translate-x-full'); });
+    document.body.style.overflow = 'hidden';
+  }
+  function closeEnquiryModal() {
+    backdrop.classList.add('opacity-0');
+    panel.classList.add('translate-x-full');
+    setTimeout(() => drawer.classList.add('hidden'), 300);
+    document.body.style.overflow = '';
+  }
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    closeEnquiryModal();
+  }
+  backdrop.addEventListener('click', closeEnquiryModal);
+  window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeEnquiryModal(); });
+  const rAF = window.requestAnimationFrame;
+</script>
+</body>
+</html>
