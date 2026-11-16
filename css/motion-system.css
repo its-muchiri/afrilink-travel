@@ -1135,6 +1135,11 @@ body { overflow-x: hidden; }
   place-items: center;
   pointer-events: none;
   opacity: 1;
+  transition: opacity 700ms var(--af-ease);
+}
+.af-page-transition--removed {
+  opacity: 0;
+  pointer-events: none;
 }
 .af-page__panel {
   position: absolute;

@@ -26,10 +26,18 @@
     rAF(() => {
       pageTransition.classList.remove("af-page-transition--enter");
       if (pagePanel) pagePanel.style.transform = "scaleX(0)";
+      setTimeout(() => {
+        pageTransition.classList.add("af-page-transition--removed");
+        setTimeout(() => pageTransition.remove(), 700);
+      }, 700);
     });
     once(window, "pageshow", () => {
       if (pageTransition) pageTransition.classList.remove("af-page-transition--enter");
       if (pagePanel) pagePanel.style.transform = "scaleX(0)";
+      setTimeout(() => {
+        pageTransition.classList.add("af-page-transition--removed");
+        setTimeout(() => pageTransition.remove(), 700);
+      }, 700);
     });
 
     // Intercept cross-page clicks: fade out, sweep panel in, then navigate
@@ -44,6 +52,8 @@
         e.preventDefault();
         const target = href;
         pageTransition.classList.add("af-page-transition--exit");
+        pageTransition.classList.remove("af-page-transition--removed");
+        pageTransition.style.opacity = "1";
         if (pagePanel) pagePanel.style.transform = "scaleX(1)";
         setTimeout(() => {
           window.location.href = target;
