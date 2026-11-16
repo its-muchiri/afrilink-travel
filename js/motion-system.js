@@ -93,14 +93,7 @@
       return;
     }
 
-    setTimeout(() => {
-      const wordmarkMain = $(".af-wordmark-main");
-      const wordmarkSub = $(".af-wordmark-sub");
-      if (wordmarkMain) once(wordmarkMain, "animationend", () => {
-        if (wordmarkSub) once(wordmarkSub, "animationend", finish);
-      });
-      setTimeout(finish, 3100);
-    }, 2000);
+    setTimeout(finish, 2000);
 
     // Safety net: never let the splash permanently block the page
     setTimeout(() => {
